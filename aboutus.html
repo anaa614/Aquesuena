@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>About us</title>
+  
+</head>
+
+<body>
+  <a href="index.html">Volver</a>
+  <main>
+    <h1>Sobre nosotros</h1>
+    <section>
+      <h2>¿Quiénes somos?</h2>
+      <p>
+        <img src="images/Instituto.jpg" id="instituto">
+        Somos un grupo de la asignatura "Tecnologías de la información y la comunicación" de segundo de bachillerato
+        del Ies Joaquín Rodrigo de Madrid. El objetivo de este proyecto es recoger la información del proyecto de
+        nuestros compañeros de 3ºESO.
+
+        
+      </p>
+
+
+      <h2 style="clear: both; padding-top: 10px;">¿Como está hecha esta web?</h2>
+      <p>
+          Esta web se ha programado con <i>HTML y CSS.</i>
+      </p>
+      <p> 
+        Para empezar en el mundo de la programación y aprender algunas nociones básicas de Html, 
+        realizamos un pequeño tutorial en Codecademy.
+        Esto nos dio algunos conocimientos que junto a la investigación en google nos ha permitido crear esta web.
+      </p>
+    </section>
+    <section>
+      <h2>Habla con nosotros</h2>
+      <form id="contacto" action="mensaje_enviado.html" method="get">
+        <div class="unpocodemargen">
+          <label for="correo"  class="width-formulario">Tu correo</label>
+          <input type="email" name="correo" id="correo">
+        </div>
+
+        <div class="unpocodemargen">
+          <label for="nombre" class="width-formulario">Tu nombre</label>
+          <input type="text" name="nombre" id="nombre">
+        </div>    
+
+        <div class="unpocodemargen">
+          <label for="mensaje" class="bloque">Tu mensaje</label>
+          <textarea form="contacto" id="area-mensaje" name="mensaje"></textarea>
+        </div>
+        
+
+
+        <input type="submit" class="bloque unpocodemargen" value="Enviar mensaje">
+      </form>
+    </section>
+  </main>
+
+
+</body>
+
+</html>
